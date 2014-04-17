@@ -41,15 +41,15 @@ whether or not there was a match from `request.user_agent`.
 All you have to do in your controller is the following:
 
     class ApplicationController < ActionController::Base
-      include Various
+      include Various::Controller
     end
 
 And in an initializer, say `/config/initializers/various.rb`:
 
     Various.configure do |config|
       config.variant_map = {
-        /iPad/i   => :tablet,
-        /iPhone/i => :mobile
+        /iPad/   => :tablet,
+        /iPhone/ => :mobile
       }
     end
 
