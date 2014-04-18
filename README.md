@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/various.svg)](http://badge.fury.io/rb/various)
+[![Gem Version](https://badge.fury.io/rb/various.svg)](http://badge.fury.io/rb/various) [![Build Status](https://travis-ci.org/kulte/various.svg?branch=master)](https://travis-ci.org/kulte/various)
 
 # Various
 
