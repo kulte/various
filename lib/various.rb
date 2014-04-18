@@ -2,6 +2,11 @@ require "various/version"
 require "various/configuration"
 require "various/controller"
 
+begin
+  require "pry"
+rescue LoadError
+end
+
 module Various
   class << self
     attr_writer :configuration

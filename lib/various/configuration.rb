@@ -4,8 +4,8 @@ module Various
 
     def initialize
       @variant_map = {
-        /iPad/i   => :tablet,
-        /iPhone/i => :mobile,
+        /iPad/   => :tablet,
+        /iPhone/ => :mobile,
       }
     end
   end

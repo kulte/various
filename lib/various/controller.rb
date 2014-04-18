@@ -1,5 +1,9 @@
+require "active_support"
+
 module Various
   module Controller
+    extend ActiveSupport::Concern
+
     included do
       before_action :detect_device_variant
     end
