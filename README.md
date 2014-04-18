@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/various.svg)](http://badge.fury.io/rb/various)
+
 # Various
 
 Simple ActionPack::Variant configuration for Rails 4.1.
