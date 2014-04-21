@@ -5,7 +5,7 @@
 Simple ActionPack::Variant configuration for Rails 4.1.
 
 Rails 4.1 introduces to **Action Pack Variants** which make it
-dramatically easier to tailor your views to serve the most relevant 
+dramatically easier to tailor your views to serve the most relevant
 content for specific device categories.
 
 According to the [Rails documentation](http://edgeapi.rubyonrails.org/classes/ActionController/MimeResponds.html#method-i-respond_to), formats can have
@@ -54,6 +54,9 @@ And in an initializer, say `/config/initializers/various.rb`:
         /iPhone/ => :mobile
       }
     end
+
+But these are the defaults, for now, so this would be unnecessary unless
+you would want to change the hash map to something other than the above.
 
 It is really that simple!
 
